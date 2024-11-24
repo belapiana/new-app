@@ -29,8 +29,8 @@ function Gallery() {
     fetchTours();
   }, []);
 
-  if (loading) return <p className="loading">Loading...</p>;
-  if (error) return <p className="error">Error: {error}</p>;
+  if (loading) return <p className="loading">loading...</p>;
+  if (error) return <p className="error">error: {error}</p>;
 
   return (
     <section className="gallery">
